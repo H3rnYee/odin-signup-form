@@ -58,11 +58,23 @@
 }
 
 /* 3. Form Area Styling */
+.text-top{
+    margin: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
 .heading {
     display: flex;
     flex-direction: column;
     background-color: #f9fafb;
     flex: 1; /* Takes up remaining space */
+}
+.form-title{
+    margin: 30px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .form-area {
@@ -116,4 +128,11 @@ button {
 .form{
     background-color: #E5E7EB;
 
+}
+.footer{
+    margin: 30px;
+}
+
+#account{
+    padding-top: 10px;
 }
